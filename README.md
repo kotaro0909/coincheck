@@ -13,3 +13,6 @@
 - 過去データはYahoo Financeを使う
   - [yfinance documentation](https://ranaroussi.github.io/yfinance/)
   - [pandasでCSVファイルの書き込み・追記（to_csv）](https://note.nkmk.me/python-pandas-to-csv/)
+
+## 環境
+- DB:MariaDB / userid:root / password:root 
