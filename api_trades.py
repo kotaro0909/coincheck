@@ -1,21 +1,24 @@
 import json
+from encodings import undefined
+from pprint import pprint
 
 import ccxt
 
 
+# 取引ペアを指定（例：BTC/JPY）
+symbol = 'BTC/JPY'
+
+
 def get():
+
     # コインチェックのインスタンスを作成
     exchange = ccxt.coincheck()
 
-    # 取引ペアを指定（例：BTC/JPY）
-    symbol = 'BTC/JPY'
+    # プロパティの出力
+    pprint(exchange.features)
 
     # トレードデータを取得
-    trades = exchange.fetch_trades(symbol, limit=10000)
-    print(f"count: {len(trades)}")
-
-    json_dat = json.dumps(trades)
-    print(json_dat)
+    trades = exchange.fetch_trades(symbol, limit=1000)
 
     filename = "sample.txt"
     with open(filename, "w", encoding="utf-8") as file:
@@ -28,3 +31,8 @@ def get():
     #    file.write(json_dat)
 
     print(f"{filename}にデータを書き込みました。")
+
+def dump_file(contents):
+    filename = "sample.txt"
+    with open(filename, "w", encoding="utf-8") as file:
+        json.dump(contents, file, ensure_ascii=False, indent=4)
