@@ -3,6 +3,11 @@ import traceback
 import requests
 import json
 
+# 記載サンプル
+# ticker = api_ticker.ApiTicker(pair.BTC)
+# res = ticker.get()
+# print(f'res: {res}')
+
 
 class ApiTicker:
     __pair = ""

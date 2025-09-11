@@ -5,6 +5,9 @@ from pprint import pprint
 import ccxt
 
 
+# 記載サンプル
+# api_trades.get()
+
 # 取引ペアを指定（例：BTC/JPY）
 symbol = 'BTC/JPY'
 
