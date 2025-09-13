@@ -5,6 +5,7 @@ import api_coincheck_ticker
 import api_coincheck_trades
 import api_yfinance
 import db_maria
+import db_maria_tx
 import pair
 
 
@@ -18,6 +19,6 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 
-api_yfinance.insertAll()
+# api_yfinance.insertAll()
 
-
+db = db_maria_tx.test()
