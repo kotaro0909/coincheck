@@ -1,12 +1,11 @@
-# This is a sample Python script.
-import datetime
+import json
+import logging
+from logging import config
 
-import api_coincheck_ticker
-import api_coincheck_trades
-import api_yfinance
-import db_maria
+from logger import logger
+
 import db_maria_tx
-import pair
+import my_logger
 
 
 def print_hi(name):
@@ -14,11 +13,11 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
+    # root loggerを作成
+    logger = my_logger.root_logger()
+    logger.info('The root logger is created.')
     print_hi('PyCharm')
 
-
-# api_yfinance.insertAll()
-
+logger.info('main log test')
 db = db_maria_tx.test()

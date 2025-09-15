@@ -1,3 +1,6 @@
+import logging
+from logging import config, getLogger, NullHandler, DEBUG
+
 import mariadb
 import multipledispatch
 
@@ -9,6 +12,16 @@ class DbMariaTx:
     __database = "cryptocurrency"
     __conn = None
     __cursor = None
+    _logger = None
+
+    def __init__(self):
+        # config.dictConfig(main.log_conf)
+        self._logger = getLogger(__name__)
+        self._logger.addHandler(NullHandler())
+        self._logger.setLevel(DEBUG)
+        self._logger.propagate = True
+        # self._logger.info("maria-tx init log test")
+        print("init finished")
 
     def connect(self):
         try:
@@ -19,6 +32,7 @@ class DbMariaTx:
                 port=3306,
                 database=self.__database
             )
+            self._logger.info('connect finished')
         except mariadb.Error as e:
             print(f"データベースエラーが発生しました: {e}")
             raise e
@@ -86,6 +100,11 @@ class DbMariaTx:
 
 
 def test():
+    logger = getLogger(__name__)
+    logger.addHandler(NullHandler())
+    logger.setLevel(DEBUG)
+    logger.propagate = True
+
     db = DbMariaTx()
     db.connect()
     db.execute("delete from test")
@@ -106,7 +125,8 @@ def test():
     db.execute("insert into test(id, text) values (?, ?)", (3, "Morning"))
     db.execute("select * from test")
     rows = db.get_rows()
-    print(rows)
+    # print(rows)
+    logger.info(rows)
     db.rollback()
     db.close()
 
@@ -119,5 +139,6 @@ def test():
     db.connect()
     db.execute("select * from test")
     rows = db.get_rows()
-    print(rows)
+    # print(rows)
+    logger.info(rows)
     db.close()

@@ -9,7 +9,16 @@
   - [Python命名規則一覧](https://qiita.com/naomi7325/items/4eb1d2a40277361e898b)
   - [pandas.DataFrame.to_jsonの基本的な使い方](https://note.nkmk.me/python-pandas-to-json/)
   - [Pythonで関数オーバーロード](https://www.python.digibeatrix.com/functions-classes/python-function-overloading-methods/)
-  
+  - [Pythonでprintを卒業してログ出力をいい感じにする](https://qiita.com/FukuharaYohei/items/92795107032c8c0bfd19)
+  - [【Python入門】Pythonのロギングと真剣に向き合う](https://www.true-fly.com/entry/2021/11/22/073000)
+    - 日時でローテート 
+      - [TimedRotatingFileHandler](https://docs.python.org/ja/3.13/library/logging.handlers.html#timedrotatingfilehandler) 
+        - [Python ログローテーションの時間経過による設定方法](https://qiita.com/takei-s/items/766fdbea8d1fbc082653)
+        - [Pythonによるログローテーションの実装](https://qiita.com/OkomeChike/items/143ef35b3e2a2672938d)
+    - ファイルサイズでローテート
+      - [Pythonでログファイルをローテーション出力する|デバッグが楽に。](https://kamedassou.com/python_out_log/)
+      - [Pythonでログファイルをローテーションさせる方法](https://jimaru.blog/programming/python/log-rotation/)
+
 - 取引はCCTXを使う
   - [CCTX Manual](https://github.com/ccxt/ccxt/wiki/manual)
   
