@@ -1,9 +1,10 @@
 import datetime
+from logging import getLogger
 
 import yfinance
 from pandas import DataFrame
 
-import db_maria
+from common.db_maria_tx import DbMariaTx
 
 # 記載サンプル
 # api_yfinance.getAllToCsv()
@@ -22,11 +23,17 @@ SYMBOL_ETH = "ETH-JPY"  # 仮想通貨の銘柄
 SYMBOL_BTC = "BTC-JPY"  # 仮想通貨の銘柄
 SYMBOLS = [SYMBOL_ETH, SYMBOL_BTC]
 
+logger = getLogger(__name__)
+
 
 def get_history(symbol: str):
+    logger.debug(f"tradeデータ取得 - start")
+
     Ticker = yfinance.Ticker(symbol)
     data = Ticker.history(period="max")
-    print(data)
+
+    logger.debug(f"tradeデータ取得 - end")
+    logger.debug(f"symbol: {symbol} \r\ndata: \r\n{data}")
     return data
 
 
@@ -44,12 +51,18 @@ def getAllToCsv():
 
 def insertAll():
     print("Insert - start")
-    sql_str = "insert into history ("\
-              "symbol, hist_date, open_val, high_val, low_val, close_val, volume"\
-              ")"\
+
+    db = DbMariaTx()
+    db.connect()
+    db.execute("delete from test")
+
+    sql_str = "insert into history (" \
+              "symbol, hist_date, open_val, high_val, low_val, close_val, volume" \
+              ")" \
               "values (?, ?, ?, ?, ?, ?, ?);"
 
-    db_maria.execute("delete from history")
+    # db_maria.execute("delete from history")
+    db.execute("delete from history")
 
     for symbol in SYMBOLS:
         is_first = True
@@ -62,8 +75,20 @@ def insertAll():
             else:
                 dt = datetime.datetime(row[0].year, row[0].month, row[0].day, row[0].hour, row[0].minute, row[0].second)
                 params = (symbol, dt, row[1], row[2], row[3], row[4], row[5])
-                db_maria.execute_with_params(sql_str, params)
+                # db_maria.execute_with_params(sql_str, params)
+                db.execute(sql_str, params)
 
+    db.commit()
+    db.close()
     print("Insert - End")
 
 
+def test():
+    logger.info("1-1 BTCのデータ取得 - start")
+    btc_data = get_history(SYMBOL_BTC)
+    logger.info(f"BTC Data: {len(btc_data)} 件")
+    logger.info("1-1 BTCのデータ取得 - end")
+    logger.info("1-2 ETHのデータ取得 - start")
+    eth_data = get_history(SYMBOL_ETH)
+    logger.info(f"BTC Data: {len(eth_data)} 件")
+    logger.info("1-2 ETHのデータ取得 - end")

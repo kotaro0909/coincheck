@@ -1,0 +1,332 @@
+2025-09-15 16:46:56,973 db.db_maria_tx:30 connect [INFO]: connect finished
+2025-09-15 16:46:56,980 db.db_maria_tx:30 connect [INFO]: connect finished
+2025-09-15 16:46:56,983 db.db_maria_tx:30 connect [INFO]: connect finished
+2025-09-15 16:46:56,994 db.db_maria_tx:30 connect [INFO]: connect finished
+2025-09-15 16:46:56,995 db.db_maria_tx:121 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 16:46:56,999 db.db_maria_tx:30 connect [INFO]: connect finished
+2025-09-15 16:46:57,008 db.db_maria_tx:30 connect [INFO]: connect finished
+2025-09-15 16:46:57,008 db.db_maria_tx:135 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 16:58:25,783 db.db_maria_tx:122 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 16:58:25,798 db.db_maria_tx:136 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 17:03:31,877 db.db_maria_tx:30 connect [INFO]: [user: root, host: localhost, database: cryptocurrency]
+2025-09-15 17:03:31,887 db.db_maria_tx:30 connect [INFO]: [user: root, host: localhost, database: cryptocurrency]
+2025-09-15 17:03:31,897 db.db_maria_tx:30 connect [INFO]: [user: root, host: localhost, database: cryptocurrency]
+2025-09-15 17:03:31,910 db.db_maria_tx:30 connect [INFO]: [user: root, host: localhost, database: cryptocurrency]
+2025-09-15 17:03:31,911 db.db_maria_tx:122 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 17:03:31,921 db.db_maria_tx:30 connect [INFO]: [user: root, host: localhost, database: cryptocurrency]
+2025-09-15 17:03:31,926 db.db_maria_tx:30 connect [INFO]: [user: root, host: localhost, database: cryptocurrency]
+2025-09-15 17:03:31,926 db.db_maria_tx:136 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 17:05:55,100 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:05:55,109 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:05:55,110 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:05:55,114 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:05:55,121 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:05:55,124 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:05:55,127 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:05:55,128 db.db_maria_tx:52 get_rows [INFO]: got row [<built-in method count of list object at 0x000001D894D1A600> rows]
+2025-09-15 17:05:55,128 db.db_maria_tx:126 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 17:05:55,136 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:05:55,137 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:05:55,140 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:05:55,142 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:05:55,142 db.db_maria_tx:52 get_rows [INFO]: got row [<built-in method count of list object at 0x000001D894D1A900> rows]
+2025-09-15 17:05:55,142 db.db_maria_tx:140 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 17:05:55,142 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:06:07,311 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:06:07,315 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:06:07,316 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:06:07,320 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:06:07,320 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:06:07,329 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:06:07,330 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:06:40,323 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:06:40,331 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:06:40,332 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:06:40,342 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:06:40,343 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:06:40,348 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:06:40,349 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:06:40,350 db.db_maria_tx:52 get_rows [INFO]: got row [3 rows]
+2025-09-15 17:06:40,350 db.db_maria_tx:126 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 17:06:40,358 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:06:40,359 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:06:40,365 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:06:40,365 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:06:40,366 db.db_maria_tx:52 get_rows [INFO]: got row [4 rows]
+2025-09-15 17:06:40,366 db.db_maria_tx:140 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 17:06:40,366 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:07:11,672 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:07:11,675 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:07:11,676 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:07:11,680 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:07:11,681 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:07:11,689 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:07:11,689 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:07:11,693 db.db_maria_tx:52 get_rows [INFO]: 3 rows
+2025-09-15 17:07:11,693 db.db_maria_tx:126 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 17:07:11,697 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:07:11,698 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:07:11,702 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:07:11,703 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:07:11,703 db.db_maria_tx:52 get_rows [INFO]: 4 rows
+2025-09-15 17:07:11,703 db.db_maria_tx:140 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 17:07:11,704 db.db_maria_tx:43 close [INFO]: closed
+2025-09-15 17:11:10,363 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:11:10,370 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:11:10,380 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:11:10,389 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:11:10,390 db.db_maria_tx:52 get_rows [INFO]: 3 rows
+2025-09-15 17:11:10,390 db.db_maria_tx:130 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 17:11:10,396 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:11:10,405 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:11:10,406 db.db_maria_tx:52 get_rows [INFO]: 4 rows
+2025-09-15 17:11:10,406 db.db_maria_tx:144 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 17:12:27,610 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:12:27,616 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:12:27,626 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:12:27,634 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:12:27,635 db.db_maria_tx:52 get_rows [INFO]: 3 rows
+2025-09-15 17:12:27,635 db.db_maria_tx:130 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 17:12:27,642 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:12:27,650 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-15 17:12:27,651 db.db_maria_tx:52 get_rows [INFO]: 4 rows
+2025-09-15 17:12:27,651 db.db_maria_tx:144 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 17:16:43,684 db.db_maria_tx:52 get_rows [INFO]: 3 rows
+2025-09-15 17:16:43,684 db.db_maria_tx:130 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 17:16:43,700 db.db_maria_tx:52 get_rows [INFO]: 4 rows
+2025-09-15 17:16:43,700 db.db_maria_tx:144 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 17:22:50,468 db.db_maria_tx:130 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 17:22:50,481 db.db_maria_tx:144 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 18:12:08,972 common.db_maria_tx:129 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 18:12:08,986 common.db_maria_tx:142 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 18:12:09,009 common.db_maria_tx:55 get_rows [CRITICAL]: データベースエラーが発生しました: Cursor doesn't have a result set
+2025-09-15 18:12:30,557 common.db_maria_tx:129 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 18:12:30,572 common.db_maria_tx:142 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 18:12:43,531 common.db_maria_tx:55 get_rows [CRITICAL]: データベースエラーが発生しました: Cursor doesn't have a result set
+2025-09-15 18:22:26,908 common.db_maria_tx:110 test [INFO]: 0 事前準備 - start
+2025-09-15 18:22:26,922 common.db_maria_tx:116 test [INFO]: 0 事前準備 - end
+2025-09-15 18:22:26,922 common.db_maria_tx:118 test [INFO]: 1-1 1件追加 ID=1 - start
+2025-09-15 18:22:26,931 common.db_maria_tx:123 test [INFO]: 1-1 1件追加 ID=1 - end
+2025-09-15 18:22:26,931 common.db_maria_tx:125 test [INFO]: 1-2 1件追加 ID=2 - start
+2025-09-15 18:22:26,943 common.db_maria_tx:130 test [INFO]: 1-2 1件追加 ID=2 - end
+2025-09-15 18:22:26,945 common.db_maria_tx:132 test [INFO]: 2 1件追加 トランザクション内でSELECT - start
+2025-09-15 18:22:26,945 common.db_maria_tx:137 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 18:22:26,951 common.db_maria_tx:140 test [INFO]: 2 1件追加 トランザクション内でSELECT - end
+2025-09-15 18:22:26,951 common.db_maria_tx:142 test [INFO]: 3 同一トランザクション内で複数SQL実行 - start
+2025-09-15 18:22:26,960 common.db_maria_tx:148 test [INFO]: 3 同一トランザクション内で複数SQL実行 - end
+2025-09-15 18:22:26,960 common.db_maria_tx:150 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - start
+2025-09-15 18:22:26,961 common.db_maria_tx:154 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 18:22:26,961 common.db_maria_tx:55 get_rows [CRITICAL]: データベースエラーが発生しました: Cursor doesn't have a result set
+2025-09-15 18:24:48,929 common.db_maria_tx:110 test [INFO]: 0 事前準備 - start
+2025-09-15 18:24:48,943 common.db_maria_tx:116 test [INFO]: 0 事前準備 - end
+2025-09-15 18:24:48,943 common.db_maria_tx:118 test [INFO]: 1-1 1件追加 ID=1 - start
+2025-09-15 18:24:48,956 common.db_maria_tx:123 test [INFO]: 1-1 1件追加 ID=1 - end
+2025-09-15 18:24:48,956 common.db_maria_tx:125 test [INFO]: 1-2 1件追加 ID=2 - start
+2025-09-15 18:24:48,962 common.db_maria_tx:130 test [INFO]: 1-2 1件追加 ID=2 - end
+2025-09-15 18:24:48,962 common.db_maria_tx:132 test [INFO]: 2 1件追加 トランザクション内でSELECT - start
+2025-09-15 18:24:48,964 common.db_maria_tx:137 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 18:24:48,972 common.db_maria_tx:140 test [INFO]: 2 1件追加 トランザクション内でSELECT - end
+2025-09-15 18:24:48,972 common.db_maria_tx:142 test [INFO]: 3 同一トランザクション内で複数SQL実行 - start
+2025-09-15 18:24:48,977 common.db_maria_tx:148 test [INFO]: 3 同一トランザクション内で複数SQL実行 - end
+2025-09-15 18:24:48,977 common.db_maria_tx:150 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - start
+2025-09-15 18:24:48,977 common.db_maria_tx:151 test [INFO]: 4-1 最初のSELECT - start
+2025-09-15 18:24:48,978 common.db_maria_tx:155 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 18:24:48,978 common.db_maria_tx:156 test [INFO]: 4-1 最初のSELECT - end
+2025-09-15 18:24:48,978 common.db_maria_tx:158 test [INFO]: 4-2 SELECT後EDLETE - start
+2025-09-15 18:24:48,978 common.db_maria_tx:55 get_rows [CRITICAL]: データベースエラーが発生しました: Cursor doesn't have a result set
+2025-09-15 18:31:02,468 common.db_maria_tx:113 test [INFO]: 0 事前準備 - start
+2025-09-15 18:31:02,479 common.db_maria_tx:119 test [INFO]: 0 事前準備 - end
+2025-09-15 18:31:02,479 common.db_maria_tx:121 test [INFO]: 1-1 1件追加 ID=1 - start
+2025-09-15 18:31:02,485 common.db_maria_tx:126 test [INFO]: 1-1 1件追加 ID=1 - end
+2025-09-15 18:31:02,486 common.db_maria_tx:128 test [INFO]: 1-2 1件追加 ID=2 - start
+2025-09-15 18:31:02,493 common.db_maria_tx:133 test [INFO]: 1-2 1件追加 ID=2 - end
+2025-09-15 18:31:02,494 common.db_maria_tx:135 test [INFO]: 2 1件追加 トランザクション内でSELECT - start
+2025-09-15 18:31:02,495 common.db_maria_tx:58 get_rows [CRITICAL]: データベースエラーが発生しました: Cursor doesn't have a result set
+2025-09-15 18:35:04,424 common.db_maria_tx:113 test [INFO]: 0 事前準備 - start
+2025-09-15 18:35:04,436 common.db_maria_tx:119 test [INFO]: 0 事前準備 - end
+2025-09-15 18:35:04,436 common.db_maria_tx:121 test [INFO]: 1-1 1件追加 ID=1 - start
+2025-09-15 18:35:04,440 common.db_maria_tx:126 test [INFO]: 1-1 1件追加 ID=1 - end
+2025-09-15 18:35:04,440 common.db_maria_tx:128 test [INFO]: 1-2 1件追加 ID=2 - start
+2025-09-15 18:35:04,449 common.db_maria_tx:133 test [INFO]: 1-2 1件追加 ID=2 - end
+2025-09-15 18:35:04,449 common.db_maria_tx:135 test [INFO]: 2 1件追加 トランザクション内でSELECT - start
+2025-09-15 18:35:04,452 common.db_maria_tx:140 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 18:35:04,455 common.db_maria_tx:143 test [INFO]: 2 1件追加 トランザクション内でSELECT - end
+2025-09-15 18:35:04,455 common.db_maria_tx:145 test [INFO]: 3 同一トランザクション内で複数SQL実行 - start
+2025-09-15 18:35:04,464 common.db_maria_tx:151 test [INFO]: 3 同一トランザクション内で複数SQL実行 - end
+2025-09-15 18:35:04,464 common.db_maria_tx:153 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - start
+2025-09-15 18:35:04,464 common.db_maria_tx:154 test [INFO]: 4-1 最初のSELECT - start
+2025-09-15 18:35:04,465 common.db_maria_tx:158 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 18:35:04,465 common.db_maria_tx:159 test [INFO]: 4-1 最初のSELECT - end
+2025-09-15 18:35:04,465 common.db_maria_tx:161 test [INFO]: 4-2 SELECT後EDLETE - start
+2025-09-15 18:35:04,465 common.db_maria_tx:58 get_rows [CRITICAL]: データベースエラーが発生しました: Cursor doesn't have a result set
+2025-09-15 18:36:25,617 common.db_maria_tx:113 test [INFO]: 0 事前準備 - start
+2025-09-15 18:36:25,629 common.db_maria_tx:119 test [INFO]: 0 事前準備 - end
+2025-09-15 18:36:25,629 common.db_maria_tx:121 test [INFO]: 1-1 1件追加 ID=1 - start
+2025-09-15 18:36:25,637 common.db_maria_tx:126 test [INFO]: 1-1 1件追加 ID=1 - end
+2025-09-15 18:36:25,637 common.db_maria_tx:128 test [INFO]: 1-2 1件追加 ID=2 - start
+2025-09-15 18:36:25,645 common.db_maria_tx:133 test [INFO]: 1-2 1件追加 ID=2 - end
+2025-09-15 18:36:25,645 common.db_maria_tx:135 test [INFO]: 2 1件追加 トランザクション内でSELECT - start
+2025-09-15 18:36:25,646 common.db_maria_tx:140 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 18:36:25,654 common.db_maria_tx:143 test [INFO]: 2 1件追加 トランザクション内でSELECT - end
+2025-09-15 18:36:25,654 common.db_maria_tx:145 test [INFO]: 3 同一トランザクション内で複数SQL実行 - start
+2025-09-15 18:36:25,660 common.db_maria_tx:151 test [INFO]: 3 同一トランザクション内で複数SQL実行 - end
+2025-09-15 18:36:25,660 common.db_maria_tx:153 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - start
+2025-09-15 18:36:25,660 common.db_maria_tx:154 test [INFO]: 4-1 最初のSELECT - start
+2025-09-15 18:36:25,661 common.db_maria_tx:158 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 18:36:25,661 common.db_maria_tx:159 test [INFO]: 4-1 最初のSELECT - end
+2025-09-15 18:36:25,661 common.db_maria_tx:161 test [INFO]: 4-2 SELECT後EDLETE - start
+2025-09-15 18:36:25,661 common.db_maria_tx:163 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 18:36:25,661 common.db_maria_tx:164 test [INFO]: 4-2 SELECT後EDLETE - end
+2025-09-15 18:36:25,661 common.db_maria_tx:166 test [INFO]: 4-3 DELETE後に再度SELECT - start
+2025-09-15 18:36:25,661 common.db_maria_tx:169 test [INFO]: [(2, 'Bye')]
+2025-09-15 18:36:25,662 common.db_maria_tx:171 test [INFO]: 4-3 DELETE後に再度SELECT - end
+2025-09-15 18:36:25,662 common.db_maria_tx:172 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - end
+2025-09-15 18:37:53,185 common.db_maria_tx:113 test [INFO]: 0 事前準備 - start
+2025-09-15 18:37:53,196 common.db_maria_tx:119 test [INFO]: 0 事前準備 - end
+2025-09-15 18:37:53,196 common.db_maria_tx:121 test [INFO]: 1-1 1件追加 ID=1 - start
+2025-09-15 18:37:53,200 common.db_maria_tx:126 test [INFO]: 1-1 1件追加 ID=1 - end
+2025-09-15 18:37:53,200 common.db_maria_tx:128 test [INFO]: 1-2 1件追加 ID=2 - start
+2025-09-15 18:37:53,209 common.db_maria_tx:133 test [INFO]: 1-2 1件追加 ID=2 - end
+2025-09-15 18:37:53,210 common.db_maria_tx:135 test [INFO]: 2 1件追加 トランザクション内でSELECT - start
+2025-09-15 18:37:53,213 common.db_maria_tx:140 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 18:37:53,216 common.db_maria_tx:143 test [INFO]: 2 1件追加 トランザクション内でSELECT - end
+2025-09-15 18:37:53,216 common.db_maria_tx:145 test [INFO]: 3 同一トランザクション内で複数SQL実行 - start
+2025-09-15 18:37:53,224 common.db_maria_tx:151 test [INFO]: 3 同一トランザクション内で複数SQL実行 - end
+2025-09-15 18:37:53,225 common.db_maria_tx:153 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - start
+2025-09-15 18:37:53,225 common.db_maria_tx:154 test [INFO]: 4-1 最初のSELECT - start
+2025-09-15 18:37:53,226 common.db_maria_tx:158 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 18:37:53,226 common.db_maria_tx:159 test [INFO]: 4-1 最初のSELECT - end
+2025-09-15 18:37:53,226 common.db_maria_tx:161 test [INFO]: 4-2 SELECT後EDLETE - start
+2025-09-15 18:37:53,226 common.db_maria_tx:163 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 18:37:53,226 common.db_maria_tx:164 test [INFO]: 4-2 SELECT後EDLETE - end
+2025-09-15 18:37:53,226 common.db_maria_tx:166 test [INFO]: 4-3 DELETE後に再度SELECT - start
+2025-09-15 18:37:53,226 common.db_maria_tx:169 test [INFO]: [(2, 'Bye')]
+2025-09-15 18:37:53,227 common.db_maria_tx:171 test [INFO]: 4-3 DELETE後に再度SELECT - end
+2025-09-15 18:37:53,227 common.db_maria_tx:173 test [INFO]: 4-4 別コネクションでSELECT - start
+2025-09-15 18:37:53,228 common.db_maria_tx:178 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 18:37:53,228 common.db_maria_tx:179 test [INFO]: 4-4 別コネクションでSELECT - end
+2025-09-15 18:37:53,228 common.db_maria_tx:181 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - end
+2025-09-15 18:58:20,215 common.db_maria_tx:113 test [INFO]: 0 事前準備 - start
+2025-09-15 18:58:20,227 common.db_maria_tx:119 test [INFO]: 0 事前準備 - end
+2025-09-15 18:58:20,227 common.db_maria_tx:121 test [INFO]: 1-1 1件追加 ID=1 - start
+2025-09-15 18:58:20,239 common.db_maria_tx:126 test [INFO]: 1-1 1件追加 ID=1 - end
+2025-09-15 18:58:20,239 common.db_maria_tx:128 test [INFO]: 1-2 1件追加 ID=2 - start
+2025-09-15 18:58:20,245 common.db_maria_tx:133 test [INFO]: 1-2 1件追加 ID=2 - end
+2025-09-15 18:58:20,245 common.db_maria_tx:135 test [INFO]: 2 1件追加 トランザクション内でSELECT - start
+2025-09-15 18:58:20,247 common.db_maria_tx:140 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 18:58:20,255 common.db_maria_tx:143 test [INFO]: 2 1件追加 トランザクション内でSELECT - end
+2025-09-15 18:58:20,255 common.db_maria_tx:145 test [INFO]: 3 同一トランザクション内で複数SQL実行 - start
+2025-09-15 18:58:20,262 common.db_maria_tx:151 test [INFO]: 3 同一トランザクション内で複数SQL実行 - end
+2025-09-15 18:58:20,262 common.db_maria_tx:153 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - start
+2025-09-15 18:58:20,262 common.db_maria_tx:154 test [INFO]: 4-1 最初のSELECT - start
+2025-09-15 18:58:20,263 common.db_maria_tx:158 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 18:58:20,263 common.db_maria_tx:159 test [INFO]: 4-1 最初のSELECT - end
+2025-09-15 18:58:20,263 common.db_maria_tx:161 test [INFO]: 4-2 SELECT後EDLETE - start
+2025-09-15 18:58:20,263 common.db_maria_tx:163 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 18:58:20,263 common.db_maria_tx:164 test [INFO]: 4-2 SELECT後EDLETE - end
+2025-09-15 18:58:20,263 common.db_maria_tx:166 test [INFO]: 4-3 DELETE後に再度SELECT - start
+2025-09-15 18:58:20,264 common.db_maria_tx:169 test [INFO]: [(2, 'Bye')]
+2025-09-15 18:58:20,264 common.db_maria_tx:171 test [INFO]: 4-3 DELETE後に再度SELECT - end
+2025-09-15 18:58:20,264 common.db_maria_tx:172 test [INFO]: 4-3 Rollbackせずに接続を閉じるo - end
+2025-09-15 18:58:20,264 common.db_maria_tx:174 test [INFO]: 4-4 別コネクションでSELECT - start
+2025-09-15 18:58:20,265 common.db_maria_tx:179 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 18:58:20,265 common.db_maria_tx:180 test [INFO]: 4-4 別コネクションでSELECT - end
+2025-09-15 18:58:20,265 common.db_maria_tx:182 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - end
+2025-09-15 18:58:20,265 api.yfinance.api_yfinance:84 test [INFO]: 1-1 BTCのデータ取得 - start
+2025-09-15 18:58:20,824 api.yfinance.api_yfinance:86 test [INFO]: 1-1 BTCのデータ取得 - end
+2025-09-15 18:58:20,824 api.yfinance.api_yfinance:87 test [INFO]: 1-2 ETHのデータ取得 - start
+2025-09-15 18:58:21,119 api.yfinance.api_yfinance:89 test [INFO]: 1-2 ETHのデータ取得 - end
+2025-09-15 18:59:35,340 common.db_maria_tx:113 test [INFO]: 0 事前準備 - start
+2025-09-15 18:59:35,351 common.db_maria_tx:119 test [INFO]: 0 事前準備 - end
+2025-09-15 18:59:35,351 common.db_maria_tx:121 test [INFO]: 1-1 1件追加 ID=1 - start
+2025-09-15 18:59:35,356 common.db_maria_tx:126 test [INFO]: 1-1 1件追加 ID=1 - end
+2025-09-15 18:59:35,356 common.db_maria_tx:128 test [INFO]: 1-2 1件追加 ID=2 - start
+2025-09-15 18:59:35,371 common.db_maria_tx:133 test [INFO]: 1-2 1件追加 ID=2 - end
+2025-09-15 18:59:35,371 common.db_maria_tx:135 test [INFO]: 2 1件追加 トランザクション内でSELECT - start
+2025-09-15 18:59:35,372 common.db_maria_tx:140 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 18:59:35,376 common.db_maria_tx:143 test [INFO]: 2 1件追加 トランザクション内でSELECT - end
+2025-09-15 18:59:35,376 common.db_maria_tx:145 test [INFO]: 3 同一トランザクション内で複数SQL実行 - start
+2025-09-15 18:59:35,380 common.db_maria_tx:151 test [INFO]: 3 同一トランザクション内で複数SQL実行 - end
+2025-09-15 18:59:35,380 common.db_maria_tx:153 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - start
+2025-09-15 18:59:35,380 common.db_maria_tx:154 test [INFO]: 4-1 最初のSELECT - start
+2025-09-15 18:59:35,381 common.db_maria_tx:158 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 18:59:35,381 common.db_maria_tx:159 test [INFO]: 4-1 最初のSELECT - end
+2025-09-15 18:59:35,381 common.db_maria_tx:161 test [INFO]: 4-2 SELECT後EDLETE - start
+2025-09-15 18:59:35,381 common.db_maria_tx:163 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 18:59:35,382 common.db_maria_tx:164 test [INFO]: 4-2 SELECT後EDLETE - end
+2025-09-15 18:59:35,382 common.db_maria_tx:166 test [INFO]: 4-3 DELETE後に再度SELECT - start
+2025-09-15 18:59:35,382 common.db_maria_tx:169 test [INFO]: [(2, 'Bye')]
+2025-09-15 18:59:35,382 common.db_maria_tx:171 test [INFO]: 4-3 DELETE後に再度SELECT - end
+2025-09-15 18:59:35,382 common.db_maria_tx:172 test [INFO]: 4-3 Rollbackせずに接続を閉じるo - end
+2025-09-15 18:59:35,382 common.db_maria_tx:174 test [INFO]: 4-4 別コネクションでSELECT - start
+2025-09-15 18:59:35,383 common.db_maria_tx:179 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 18:59:35,383 common.db_maria_tx:180 test [INFO]: 4-4 別コネクションでSELECT - end
+2025-09-15 18:59:35,383 common.db_maria_tx:182 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - end
+2025-09-15 18:59:35,383 api.yfinance.api_yfinance:84 test [INFO]: 1-1 BTCのデータ取得 - start
+2025-09-15 18:59:36,184 api.yfinance.api_yfinance:85 test [INFO]: BTC Data: 
+                                   Open          High  ...  Dividends  Stock Splits
+Date                                                   ...                         
+2014-09-17 00:00:00+00:00  4.991267e+04  5.019294e+04  ...        0.0           0.0
+2014-09-18 00:00:00+00:00  4.958758e+04  4.956474e+04  ...        0.0           0.0
+2014-09-19 00:00:00+00:00  4.614241e+04  4.671102e+04  ...        0.0           0.0
+2014-09-20 00:00:00+00:00  4.302330e+04  4.614350e+04  ...        0.0           0.0
+2014-09-21 00:00:00+00:00  4.448534e+04  4.495856e+04  ...        0.0           0.0
+...                                 ...           ...  ...        ...           ...
+2025-09-11 00:00:00+00:00  1.679296e+07  1.700905e+07  ...        0.0           0.0
+2025-09-12 00:00:00+00:00  1.700688e+07  1.723451e+07  ...        0.0           0.0
+2025-09-13 00:00:00+00:00  1.714877e+07  1.717758e+07  ...        0.0           0.0
+2025-09-14 00:00:00+00:00  1.712912e+07  1.717801e+07  ...        0.0           0.0
+2025-09-15 00:00:00+00:00  1.703880e+07  1.720037e+07  ...        0.0           0.0
+
+[4017 rows x 7 columns]
+2025-09-15 18:59:36,184 api.yfinance.api_yfinance:86 test [INFO]: 1-1 BTCのデータ取得 - end
+2025-09-15 18:59:36,184 api.yfinance.api_yfinance:87 test [INFO]: 1-2 ETHのデータ取得 - start
+2025-09-15 18:59:36,482 api.yfinance.api_yfinance:88 test [INFO]: BTC Data: 
+                                    Open  ...  Stock Splits
+Date                                      ...              
+2017-11-11 00:00:00+00:00   33898.468750  ...           0.0
+2017-11-12 00:00:00+00:00   35726.757812  ...           0.0
+2017-11-13 00:00:00+00:00   34902.601562  ...           0.0
+2017-11-14 00:00:00+00:00   35981.109375  ...           0.0
+2017-11-15 00:00:00+00:00   38325.117188  ...           0.0
+...                                  ...  ...           ...
+2025-09-11 00:00:00+00:00  640882.937500  ...           0.0
+2025-09-12 00:00:00+00:00  656889.375000  ...           0.0
+2025-09-13 00:00:00+00:00  696432.750000  ...           0.0
+2025-09-14 00:00:00+00:00  689620.125000  ...           0.0
+2025-09-15 00:00:00+00:00  680537.125000  ...           0.0
+
+[2866 rows x 7 columns]
+2025-09-15 18:59:36,482 api.yfinance.api_yfinance:89 test [INFO]: 1-2 ETHのデータ取得 - end
+2025-09-15 19:04:31,489 common.db_maria_tx:113 test [INFO]: 0 事前準備 - start
+2025-09-15 19:04:31,502 common.db_maria_tx:119 test [INFO]: 0 事前準備 - end
+2025-09-15 19:04:31,502 common.db_maria_tx:121 test [INFO]: 1-1 1件追加 ID=1 - start
+2025-09-15 19:04:31,510 common.db_maria_tx:126 test [INFO]: 1-1 1件追加 ID=1 - end
+2025-09-15 19:04:31,510 common.db_maria_tx:128 test [INFO]: 1-2 1件追加 ID=2 - start
+2025-09-15 19:04:31,517 common.db_maria_tx:133 test [INFO]: 1-2 1件追加 ID=2 - end
+2025-09-15 19:04:31,517 common.db_maria_tx:135 test [INFO]: 2 1件追加 トランザクション内でSELECT - start
+2025-09-15 19:04:31,518 common.db_maria_tx:140 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
+2025-09-15 19:04:31,527 common.db_maria_tx:143 test [INFO]: 2 1件追加 トランザクション内でSELECT - end
+2025-09-15 19:04:31,528 common.db_maria_tx:145 test [INFO]: 3 同一トランザクション内で複数SQL実行 - start
+2025-09-15 19:04:31,532 common.db_maria_tx:151 test [INFO]: 3 同一トランザクション内で複数SQL実行 - end
+2025-09-15 19:04:31,532 common.db_maria_tx:153 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - start
+2025-09-15 19:04:31,532 common.db_maria_tx:154 test [INFO]: 4-1 最初のSELECT - start
+2025-09-15 19:04:31,533 common.db_maria_tx:158 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 19:04:31,533 common.db_maria_tx:159 test [INFO]: 4-1 最初のSELECT - end
+2025-09-15 19:04:31,533 common.db_maria_tx:161 test [INFO]: 4-2 SELECT後EDLETE - start
+2025-09-15 19:04:31,533 common.db_maria_tx:163 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 19:04:31,533 common.db_maria_tx:164 test [INFO]: 4-2 SELECT後EDLETE - end
+2025-09-15 19:04:31,533 common.db_maria_tx:166 test [INFO]: 4-3 DELETE後に再度SELECT - start
+2025-09-15 19:04:31,534 common.db_maria_tx:169 test [INFO]: [(2, 'Bye')]
+2025-09-15 19:04:31,534 common.db_maria_tx:171 test [INFO]: 4-3 DELETE後に再度SELECT - end
+2025-09-15 19:04:31,534 common.db_maria_tx:172 test [INFO]: 4-3 Rollbackせずに接続を閉じるo - end
+2025-09-15 19:04:31,534 common.db_maria_tx:174 test [INFO]: 4-4 別コネクションでSELECT - start
+2025-09-15 19:04:31,535 common.db_maria_tx:179 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
+2025-09-15 19:04:31,535 common.db_maria_tx:180 test [INFO]: 4-4 別コネクションでSELECT - end
+2025-09-15 19:04:31,535 common.db_maria_tx:182 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - end
+2025-09-15 19:04:31,535 api.yfinance.api_yfinance:84 test [INFO]: 1-1 BTCのデータ取得 - start
+2025-09-15 19:04:32,059 api.yfinance.api_yfinance:86 test [INFO]: BTC Data: 4017件
+2025-09-15 19:04:32,059 api.yfinance.api_yfinance:87 test [INFO]: 1-1 BTCのデータ取得 - end
+2025-09-15 19:04:32,059 api.yfinance.api_yfinance:88 test [INFO]: 1-2 ETHのデータ取得 - start
+2025-09-15 19:04:32,264 api.yfinance.api_yfinance:90 test [INFO]: BTC Data: 2866件
+2025-09-15 19:04:32,264 api.yfinance.api_yfinance:91 test [INFO]: 1-2 ETHのデータ取得 - end

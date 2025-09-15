@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CoinCheck.iml" filepath="$PROJECT_DIR$/.idea/CoinCheck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/trades.iml" filepath="$PROJECT_DIR$/.idea/trades.iml" />
     </modules>
   </component>
 </project>

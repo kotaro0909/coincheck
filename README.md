@@ -9,6 +9,7 @@
   - [Python命名規則一覧](https://qiita.com/naomi7325/items/4eb1d2a40277361e898b)
   - [pandas.DataFrame.to_jsonの基本的な使い方](https://note.nkmk.me/python-pandas-to-json/)
   - [Pythonで関数オーバーロード](https://www.python.digibeatrix.com/functions-classes/python-function-overloading-methods/)
+  - [ディレクトリ・パス取得関連](https://qiita.com/khfkd/items/19cd43935c6f2cf973b7)
 - ログ出力
   - [Pythonでprintを卒業してログ出力をいい感じにする](https://qiita.com/FukuharaYohei/items/92795107032c8c0bfd19)
   - [【Python入門】Pythonのロギングと真剣に向き合う](https://www.true-fly.com/entry/2021/11/22/073000)
