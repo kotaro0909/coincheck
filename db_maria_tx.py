@@ -17,11 +17,8 @@ class DbMariaTx:
     def __init__(self):
         # config.dictConfig(main.log_conf)
         self._logger = getLogger(__name__)
-        self._logger.addHandler(NullHandler())
-        self._logger.setLevel(DEBUG)
-        self._logger.propagate = True
-        # self._logger.info("maria-tx init log test")
-        print("init finished")
+        self._logger.debug("maria-tx init log test")
+        # print("init finished")
 
     def connect(self):
         try:
@@ -101,9 +98,9 @@ class DbMariaTx:
 
 def test():
     logger = getLogger(__name__)
-    logger.addHandler(NullHandler())
-    logger.setLevel(DEBUG)
-    logger.propagate = True
+    # logger.addHandler(NullHandler())
+    # logger.setLevel(DEBUG)
+    # logger.propagate = True
 
     db = DbMariaTx()
     db.connect()

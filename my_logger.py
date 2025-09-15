@@ -1,5 +1,9 @@
-from logging import Formatter, handlers, StreamHandler, getLogger, DEBUG, INFO, FileHandler
+from logging import Formatter, StreamHandler, getLogger, DEBUG, INFO
 from logging.handlers import TimedRotatingFileHandler
+
+
+def consoleHandler():
+    pass
 
 
 def root_logger():
@@ -7,22 +11,17 @@ def root_logger():
     logger = getLogger()
 
     # formatterを作成
-    formatter = Formatter('%(asctime)s %(name)s %(funcName)s [%(levelname)s]: %(message)s')
+    formatter = Formatter('%(asctime)s %(name)s:%(lineno)s %(funcName)s [%(levelname)s]: %(message)s')
     # filename
     filename = 'test.log'
 
-    # handlerを作成しフォーマッターを設定
-    # loggerにhandlerを設定、イベント捕捉のためのレベルを設定
-    # log levelを設定
-    # stream_handler = StreamHandler()
-    # logger.addHandler(stream_handler)
-    # stream_handler.setFormatter(formatter)
-    # logger.setLevel(DEBUG)
+    # 例）コンソールに出力するハンドラ
+    console_handler = StreamHandler()
+    logger.addHandler(console_handler)
+    console_handler.setFormatter(formatter)
+    logger.setLevel(DEBUG)
 
-    # ファイル出力ハンドラを設定
-    # file_handler = FileHandler(filename)
-
-    # 時間でローテーションするハンドラ
+    # 例）時間でローテーションするファイルを出力するハンドラ
     file_handler = TimedRotatingFileHandler(
         filename, when='D', interval=1, backupCount=5, encoding='utf-8'
     )

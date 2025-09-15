@@ -4,11 +4,12 @@
 - [Pythonでサクッと仮想通貨データを取得する方法](https://lifetechia.com/crypto-data/)
 
 ## 備忘
-- Python
+- [Python](https://docs.python.org/ja/3.13/contents.html)
   - [pandasでCSVファイルの書き込み・追記（to_csv）](https://note.nkmk.me/python-pandas-to-csv/)
   - [Python命名規則一覧](https://qiita.com/naomi7325/items/4eb1d2a40277361e898b)
   - [pandas.DataFrame.to_jsonの基本的な使い方](https://note.nkmk.me/python-pandas-to-json/)
   - [Pythonで関数オーバーロード](https://www.python.digibeatrix.com/functions-classes/python-function-overloading-methods/)
+- ログ出力
   - [Pythonでprintを卒業してログ出力をいい感じにする](https://qiita.com/FukuharaYohei/items/92795107032c8c0bfd19)
   - [【Python入門】Pythonのロギングと真剣に向き合う](https://www.true-fly.com/entry/2021/11/22/073000)
     - 日時でローテート 
