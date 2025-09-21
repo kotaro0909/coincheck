@@ -27,7 +27,9 @@
 - 過去データはYahoo Financeを使う
   - [【Python】仮想通貨・ビットコイン価格の過去データ取得方法2選｜ヒストリカルデータ分析に基づく自動売買実現に向けて](https://di-acc2.com/programming/python/15678/)
   - [yfinance documentation](https://ranaroussi.github.io/yfinance/)
-  
+    - [【yfinance API解説】 Part1 クイックスタート](https://zenn.dev/yuto_mo/articles/197ebdeee69682)
+    - [【yfinance API解説】Part2 Ticker編](https://zenn.dev/yuto_mo/articles/ee1b2cfd8d6bf8)
+    
 - CoinCheckの操作
   - [Coin Checkl 取引所 API 概要](https://coincheck.com/ja/documents/exchange/api#about)
   - [【Python】コインチェックAPIの取得と自動売買の実践手順｜Coincheck仮想通貨・ビットコイン取引機能入門](https://di-acc2.com/programming/python/15316/)

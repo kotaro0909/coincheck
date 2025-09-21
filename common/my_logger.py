@@ -20,7 +20,7 @@ def root_logger(output_path_log: str):
     console_handler = StreamHandler()
     console_handler.setFormatter(formatter)
     logger.addHandler(console_handler)
-    logger.setLevel(INFO)
+    logger.setLevel(DEBUG)
 
     # 例）時間でローテーションするファイルを出力するハンドラ
     file_handler = TimedRotatingFileHandler(
@@ -28,6 +28,6 @@ def root_logger(output_path_log: str):
     )
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
-    file_handler.setLevel(INFO)
+    file_handler.setLevel(DEBUG)
 
     return logger

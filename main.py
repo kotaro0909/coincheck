@@ -2,6 +2,7 @@ import os
 
 import test
 from common import my_logger
+from api.coincheck import api_coincheck
 
 if __name__ == '__main__':
     # root loggerを作成

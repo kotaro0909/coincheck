@@ -1,332 +1,318 @@
-2025-09-15 16:46:56,973 db.db_maria_tx:30 connect [INFO]: connect finished
-2025-09-15 16:46:56,980 db.db_maria_tx:30 connect [INFO]: connect finished
-2025-09-15 16:46:56,983 db.db_maria_tx:30 connect [INFO]: connect finished
-2025-09-15 16:46:56,994 db.db_maria_tx:30 connect [INFO]: connect finished
-2025-09-15 16:46:56,995 db.db_maria_tx:121 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 16:46:56,999 db.db_maria_tx:30 connect [INFO]: connect finished
-2025-09-15 16:46:57,008 db.db_maria_tx:30 connect [INFO]: connect finished
-2025-09-15 16:46:57,008 db.db_maria_tx:135 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 16:58:25,783 db.db_maria_tx:122 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 16:58:25,798 db.db_maria_tx:136 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 17:03:31,877 db.db_maria_tx:30 connect [INFO]: [user: root, host: localhost, database: cryptocurrency]
-2025-09-15 17:03:31,887 db.db_maria_tx:30 connect [INFO]: [user: root, host: localhost, database: cryptocurrency]
-2025-09-15 17:03:31,897 db.db_maria_tx:30 connect [INFO]: [user: root, host: localhost, database: cryptocurrency]
-2025-09-15 17:03:31,910 db.db_maria_tx:30 connect [INFO]: [user: root, host: localhost, database: cryptocurrency]
-2025-09-15 17:03:31,911 db.db_maria_tx:122 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 17:03:31,921 db.db_maria_tx:30 connect [INFO]: [user: root, host: localhost, database: cryptocurrency]
-2025-09-15 17:03:31,926 db.db_maria_tx:30 connect [INFO]: [user: root, host: localhost, database: cryptocurrency]
-2025-09-15 17:03:31,926 db.db_maria_tx:136 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 17:05:55,100 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:05:55,109 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:05:55,110 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:05:55,114 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:05:55,121 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:05:55,124 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:05:55,127 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:05:55,128 db.db_maria_tx:52 get_rows [INFO]: got row [<built-in method count of list object at 0x000001D894D1A600> rows]
-2025-09-15 17:05:55,128 db.db_maria_tx:126 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 17:05:55,136 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:05:55,137 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:05:55,140 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:05:55,142 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:05:55,142 db.db_maria_tx:52 get_rows [INFO]: got row [<built-in method count of list object at 0x000001D894D1A900> rows]
-2025-09-15 17:05:55,142 db.db_maria_tx:140 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 17:05:55,142 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:06:07,311 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:06:07,315 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:06:07,316 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:06:07,320 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:06:07,320 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:06:07,329 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:06:07,330 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:06:40,323 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:06:40,331 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:06:40,332 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:06:40,342 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:06:40,343 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:06:40,348 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:06:40,349 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:06:40,350 db.db_maria_tx:52 get_rows [INFO]: got row [3 rows]
-2025-09-15 17:06:40,350 db.db_maria_tx:126 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 17:06:40,358 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:06:40,359 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:06:40,365 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:06:40,365 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:06:40,366 db.db_maria_tx:52 get_rows [INFO]: got row [4 rows]
-2025-09-15 17:06:40,366 db.db_maria_tx:140 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 17:06:40,366 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:07:11,672 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:07:11,675 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:07:11,676 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:07:11,680 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:07:11,681 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:07:11,689 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:07:11,689 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:07:11,693 db.db_maria_tx:52 get_rows [INFO]: 3 rows
-2025-09-15 17:07:11,693 db.db_maria_tx:126 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 17:07:11,697 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:07:11,698 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:07:11,702 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:07:11,703 db.db_maria_tx:31 connect [INFO]: [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:07:11,703 db.db_maria_tx:52 get_rows [INFO]: 4 rows
-2025-09-15 17:07:11,703 db.db_maria_tx:140 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 17:07:11,704 db.db_maria_tx:43 close [INFO]: closed
-2025-09-15 17:11:10,363 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:11:10,370 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:11:10,380 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:11:10,389 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:11:10,390 db.db_maria_tx:52 get_rows [INFO]: 3 rows
-2025-09-15 17:11:10,390 db.db_maria_tx:130 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 17:11:10,396 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:11:10,405 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:11:10,406 db.db_maria_tx:52 get_rows [INFO]: 4 rows
-2025-09-15 17:11:10,406 db.db_maria_tx:144 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 17:12:27,610 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:12:27,616 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:12:27,626 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:12:27,634 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:12:27,635 db.db_maria_tx:52 get_rows [INFO]: 3 rows
-2025-09-15 17:12:27,635 db.db_maria_tx:130 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 17:12:27,642 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:12:27,650 db.db_maria_tx:31 connect [INFO]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
-2025-09-15 17:12:27,651 db.db_maria_tx:52 get_rows [INFO]: 4 rows
-2025-09-15 17:12:27,651 db.db_maria_tx:144 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 17:16:43,684 db.db_maria_tx:52 get_rows [INFO]: 3 rows
-2025-09-15 17:16:43,684 db.db_maria_tx:130 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 17:16:43,700 db.db_maria_tx:52 get_rows [INFO]: 4 rows
-2025-09-15 17:16:43,700 db.db_maria_tx:144 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 17:22:50,468 db.db_maria_tx:130 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 17:22:50,481 db.db_maria_tx:144 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 18:12:08,972 common.db_maria_tx:129 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 18:12:08,986 common.db_maria_tx:142 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 18:12:09,009 common.db_maria_tx:55 get_rows [CRITICAL]: データベースエラーが発生しました: Cursor doesn't have a result set
-2025-09-15 18:12:30,557 common.db_maria_tx:129 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 18:12:30,572 common.db_maria_tx:142 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 18:12:43,531 common.db_maria_tx:55 get_rows [CRITICAL]: データベースエラーが発生しました: Cursor doesn't have a result set
-2025-09-15 18:22:26,908 common.db_maria_tx:110 test [INFO]: 0 事前準備 - start
-2025-09-15 18:22:26,922 common.db_maria_tx:116 test [INFO]: 0 事前準備 - end
-2025-09-15 18:22:26,922 common.db_maria_tx:118 test [INFO]: 1-1 1件追加 ID=1 - start
-2025-09-15 18:22:26,931 common.db_maria_tx:123 test [INFO]: 1-1 1件追加 ID=1 - end
-2025-09-15 18:22:26,931 common.db_maria_tx:125 test [INFO]: 1-2 1件追加 ID=2 - start
-2025-09-15 18:22:26,943 common.db_maria_tx:130 test [INFO]: 1-2 1件追加 ID=2 - end
-2025-09-15 18:22:26,945 common.db_maria_tx:132 test [INFO]: 2 1件追加 トランザクション内でSELECT - start
-2025-09-15 18:22:26,945 common.db_maria_tx:137 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 18:22:26,951 common.db_maria_tx:140 test [INFO]: 2 1件追加 トランザクション内でSELECT - end
-2025-09-15 18:22:26,951 common.db_maria_tx:142 test [INFO]: 3 同一トランザクション内で複数SQL実行 - start
-2025-09-15 18:22:26,960 common.db_maria_tx:148 test [INFO]: 3 同一トランザクション内で複数SQL実行 - end
-2025-09-15 18:22:26,960 common.db_maria_tx:150 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - start
-2025-09-15 18:22:26,961 common.db_maria_tx:154 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 18:22:26,961 common.db_maria_tx:55 get_rows [CRITICAL]: データベースエラーが発生しました: Cursor doesn't have a result set
-2025-09-15 18:24:48,929 common.db_maria_tx:110 test [INFO]: 0 事前準備 - start
-2025-09-15 18:24:48,943 common.db_maria_tx:116 test [INFO]: 0 事前準備 - end
-2025-09-15 18:24:48,943 common.db_maria_tx:118 test [INFO]: 1-1 1件追加 ID=1 - start
-2025-09-15 18:24:48,956 common.db_maria_tx:123 test [INFO]: 1-1 1件追加 ID=1 - end
-2025-09-15 18:24:48,956 common.db_maria_tx:125 test [INFO]: 1-2 1件追加 ID=2 - start
-2025-09-15 18:24:48,962 common.db_maria_tx:130 test [INFO]: 1-2 1件追加 ID=2 - end
-2025-09-15 18:24:48,962 common.db_maria_tx:132 test [INFO]: 2 1件追加 トランザクション内でSELECT - start
-2025-09-15 18:24:48,964 common.db_maria_tx:137 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 18:24:48,972 common.db_maria_tx:140 test [INFO]: 2 1件追加 トランザクション内でSELECT - end
-2025-09-15 18:24:48,972 common.db_maria_tx:142 test [INFO]: 3 同一トランザクション内で複数SQL実行 - start
-2025-09-15 18:24:48,977 common.db_maria_tx:148 test [INFO]: 3 同一トランザクション内で複数SQL実行 - end
-2025-09-15 18:24:48,977 common.db_maria_tx:150 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - start
-2025-09-15 18:24:48,977 common.db_maria_tx:151 test [INFO]: 4-1 最初のSELECT - start
-2025-09-15 18:24:48,978 common.db_maria_tx:155 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 18:24:48,978 common.db_maria_tx:156 test [INFO]: 4-1 最初のSELECT - end
-2025-09-15 18:24:48,978 common.db_maria_tx:158 test [INFO]: 4-2 SELECT後EDLETE - start
-2025-09-15 18:24:48,978 common.db_maria_tx:55 get_rows [CRITICAL]: データベースエラーが発生しました: Cursor doesn't have a result set
-2025-09-15 18:31:02,468 common.db_maria_tx:113 test [INFO]: 0 事前準備 - start
-2025-09-15 18:31:02,479 common.db_maria_tx:119 test [INFO]: 0 事前準備 - end
-2025-09-15 18:31:02,479 common.db_maria_tx:121 test [INFO]: 1-1 1件追加 ID=1 - start
-2025-09-15 18:31:02,485 common.db_maria_tx:126 test [INFO]: 1-1 1件追加 ID=1 - end
-2025-09-15 18:31:02,486 common.db_maria_tx:128 test [INFO]: 1-2 1件追加 ID=2 - start
-2025-09-15 18:31:02,493 common.db_maria_tx:133 test [INFO]: 1-2 1件追加 ID=2 - end
-2025-09-15 18:31:02,494 common.db_maria_tx:135 test [INFO]: 2 1件追加 トランザクション内でSELECT - start
-2025-09-15 18:31:02,495 common.db_maria_tx:58 get_rows [CRITICAL]: データベースエラーが発生しました: Cursor doesn't have a result set
-2025-09-15 18:35:04,424 common.db_maria_tx:113 test [INFO]: 0 事前準備 - start
-2025-09-15 18:35:04,436 common.db_maria_tx:119 test [INFO]: 0 事前準備 - end
-2025-09-15 18:35:04,436 common.db_maria_tx:121 test [INFO]: 1-1 1件追加 ID=1 - start
-2025-09-15 18:35:04,440 common.db_maria_tx:126 test [INFO]: 1-1 1件追加 ID=1 - end
-2025-09-15 18:35:04,440 common.db_maria_tx:128 test [INFO]: 1-2 1件追加 ID=2 - start
-2025-09-15 18:35:04,449 common.db_maria_tx:133 test [INFO]: 1-2 1件追加 ID=2 - end
-2025-09-15 18:35:04,449 common.db_maria_tx:135 test [INFO]: 2 1件追加 トランザクション内でSELECT - start
-2025-09-15 18:35:04,452 common.db_maria_tx:140 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 18:35:04,455 common.db_maria_tx:143 test [INFO]: 2 1件追加 トランザクション内でSELECT - end
-2025-09-15 18:35:04,455 common.db_maria_tx:145 test [INFO]: 3 同一トランザクション内で複数SQL実行 - start
-2025-09-15 18:35:04,464 common.db_maria_tx:151 test [INFO]: 3 同一トランザクション内で複数SQL実行 - end
-2025-09-15 18:35:04,464 common.db_maria_tx:153 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - start
-2025-09-15 18:35:04,464 common.db_maria_tx:154 test [INFO]: 4-1 最初のSELECT - start
-2025-09-15 18:35:04,465 common.db_maria_tx:158 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 18:35:04,465 common.db_maria_tx:159 test [INFO]: 4-1 最初のSELECT - end
-2025-09-15 18:35:04,465 common.db_maria_tx:161 test [INFO]: 4-2 SELECT後EDLETE - start
-2025-09-15 18:35:04,465 common.db_maria_tx:58 get_rows [CRITICAL]: データベースエラーが発生しました: Cursor doesn't have a result set
-2025-09-15 18:36:25,617 common.db_maria_tx:113 test [INFO]: 0 事前準備 - start
-2025-09-15 18:36:25,629 common.db_maria_tx:119 test [INFO]: 0 事前準備 - end
-2025-09-15 18:36:25,629 common.db_maria_tx:121 test [INFO]: 1-1 1件追加 ID=1 - start
-2025-09-15 18:36:25,637 common.db_maria_tx:126 test [INFO]: 1-1 1件追加 ID=1 - end
-2025-09-15 18:36:25,637 common.db_maria_tx:128 test [INFO]: 1-2 1件追加 ID=2 - start
-2025-09-15 18:36:25,645 common.db_maria_tx:133 test [INFO]: 1-2 1件追加 ID=2 - end
-2025-09-15 18:36:25,645 common.db_maria_tx:135 test [INFO]: 2 1件追加 トランザクション内でSELECT - start
-2025-09-15 18:36:25,646 common.db_maria_tx:140 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 18:36:25,654 common.db_maria_tx:143 test [INFO]: 2 1件追加 トランザクション内でSELECT - end
-2025-09-15 18:36:25,654 common.db_maria_tx:145 test [INFO]: 3 同一トランザクション内で複数SQL実行 - start
-2025-09-15 18:36:25,660 common.db_maria_tx:151 test [INFO]: 3 同一トランザクション内で複数SQL実行 - end
-2025-09-15 18:36:25,660 common.db_maria_tx:153 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - start
-2025-09-15 18:36:25,660 common.db_maria_tx:154 test [INFO]: 4-1 最初のSELECT - start
-2025-09-15 18:36:25,661 common.db_maria_tx:158 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 18:36:25,661 common.db_maria_tx:159 test [INFO]: 4-1 最初のSELECT - end
-2025-09-15 18:36:25,661 common.db_maria_tx:161 test [INFO]: 4-2 SELECT後EDLETE - start
-2025-09-15 18:36:25,661 common.db_maria_tx:163 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 18:36:25,661 common.db_maria_tx:164 test [INFO]: 4-2 SELECT後EDLETE - end
-2025-09-15 18:36:25,661 common.db_maria_tx:166 test [INFO]: 4-3 DELETE後に再度SELECT - start
-2025-09-15 18:36:25,661 common.db_maria_tx:169 test [INFO]: [(2, 'Bye')]
-2025-09-15 18:36:25,662 common.db_maria_tx:171 test [INFO]: 4-3 DELETE後に再度SELECT - end
-2025-09-15 18:36:25,662 common.db_maria_tx:172 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - end
-2025-09-15 18:37:53,185 common.db_maria_tx:113 test [INFO]: 0 事前準備 - start
-2025-09-15 18:37:53,196 common.db_maria_tx:119 test [INFO]: 0 事前準備 - end
-2025-09-15 18:37:53,196 common.db_maria_tx:121 test [INFO]: 1-1 1件追加 ID=1 - start
-2025-09-15 18:37:53,200 common.db_maria_tx:126 test [INFO]: 1-1 1件追加 ID=1 - end
-2025-09-15 18:37:53,200 common.db_maria_tx:128 test [INFO]: 1-2 1件追加 ID=2 - start
-2025-09-15 18:37:53,209 common.db_maria_tx:133 test [INFO]: 1-2 1件追加 ID=2 - end
-2025-09-15 18:37:53,210 common.db_maria_tx:135 test [INFO]: 2 1件追加 トランザクション内でSELECT - start
-2025-09-15 18:37:53,213 common.db_maria_tx:140 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 18:37:53,216 common.db_maria_tx:143 test [INFO]: 2 1件追加 トランザクション内でSELECT - end
-2025-09-15 18:37:53,216 common.db_maria_tx:145 test [INFO]: 3 同一トランザクション内で複数SQL実行 - start
-2025-09-15 18:37:53,224 common.db_maria_tx:151 test [INFO]: 3 同一トランザクション内で複数SQL実行 - end
-2025-09-15 18:37:53,225 common.db_maria_tx:153 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - start
-2025-09-15 18:37:53,225 common.db_maria_tx:154 test [INFO]: 4-1 最初のSELECT - start
-2025-09-15 18:37:53,226 common.db_maria_tx:158 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 18:37:53,226 common.db_maria_tx:159 test [INFO]: 4-1 最初のSELECT - end
-2025-09-15 18:37:53,226 common.db_maria_tx:161 test [INFO]: 4-2 SELECT後EDLETE - start
-2025-09-15 18:37:53,226 common.db_maria_tx:163 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 18:37:53,226 common.db_maria_tx:164 test [INFO]: 4-2 SELECT後EDLETE - end
-2025-09-15 18:37:53,226 common.db_maria_tx:166 test [INFO]: 4-3 DELETE後に再度SELECT - start
-2025-09-15 18:37:53,226 common.db_maria_tx:169 test [INFO]: [(2, 'Bye')]
-2025-09-15 18:37:53,227 common.db_maria_tx:171 test [INFO]: 4-3 DELETE後に再度SELECT - end
-2025-09-15 18:37:53,227 common.db_maria_tx:173 test [INFO]: 4-4 別コネクションでSELECT - start
-2025-09-15 18:37:53,228 common.db_maria_tx:178 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 18:37:53,228 common.db_maria_tx:179 test [INFO]: 4-4 別コネクションでSELECT - end
-2025-09-15 18:37:53,228 common.db_maria_tx:181 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - end
-2025-09-15 18:58:20,215 common.db_maria_tx:113 test [INFO]: 0 事前準備 - start
-2025-09-15 18:58:20,227 common.db_maria_tx:119 test [INFO]: 0 事前準備 - end
-2025-09-15 18:58:20,227 common.db_maria_tx:121 test [INFO]: 1-1 1件追加 ID=1 - start
-2025-09-15 18:58:20,239 common.db_maria_tx:126 test [INFO]: 1-1 1件追加 ID=1 - end
-2025-09-15 18:58:20,239 common.db_maria_tx:128 test [INFO]: 1-2 1件追加 ID=2 - start
-2025-09-15 18:58:20,245 common.db_maria_tx:133 test [INFO]: 1-2 1件追加 ID=2 - end
-2025-09-15 18:58:20,245 common.db_maria_tx:135 test [INFO]: 2 1件追加 トランザクション内でSELECT - start
-2025-09-15 18:58:20,247 common.db_maria_tx:140 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 18:58:20,255 common.db_maria_tx:143 test [INFO]: 2 1件追加 トランザクション内でSELECT - end
-2025-09-15 18:58:20,255 common.db_maria_tx:145 test [INFO]: 3 同一トランザクション内で複数SQL実行 - start
-2025-09-15 18:58:20,262 common.db_maria_tx:151 test [INFO]: 3 同一トランザクション内で複数SQL実行 - end
-2025-09-15 18:58:20,262 common.db_maria_tx:153 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - start
-2025-09-15 18:58:20,262 common.db_maria_tx:154 test [INFO]: 4-1 最初のSELECT - start
-2025-09-15 18:58:20,263 common.db_maria_tx:158 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 18:58:20,263 common.db_maria_tx:159 test [INFO]: 4-1 最初のSELECT - end
-2025-09-15 18:58:20,263 common.db_maria_tx:161 test [INFO]: 4-2 SELECT後EDLETE - start
-2025-09-15 18:58:20,263 common.db_maria_tx:163 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 18:58:20,263 common.db_maria_tx:164 test [INFO]: 4-2 SELECT後EDLETE - end
-2025-09-15 18:58:20,263 common.db_maria_tx:166 test [INFO]: 4-3 DELETE後に再度SELECT - start
-2025-09-15 18:58:20,264 common.db_maria_tx:169 test [INFO]: [(2, 'Bye')]
-2025-09-15 18:58:20,264 common.db_maria_tx:171 test [INFO]: 4-3 DELETE後に再度SELECT - end
-2025-09-15 18:58:20,264 common.db_maria_tx:172 test [INFO]: 4-3 Rollbackせずに接続を閉じるo - end
-2025-09-15 18:58:20,264 common.db_maria_tx:174 test [INFO]: 4-4 別コネクションでSELECT - start
-2025-09-15 18:58:20,265 common.db_maria_tx:179 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 18:58:20,265 common.db_maria_tx:180 test [INFO]: 4-4 別コネクションでSELECT - end
-2025-09-15 18:58:20,265 common.db_maria_tx:182 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - end
-2025-09-15 18:58:20,265 api.yfinance.api_yfinance:84 test [INFO]: 1-1 BTCのデータ取得 - start
-2025-09-15 18:58:20,824 api.yfinance.api_yfinance:86 test [INFO]: 1-1 BTCのデータ取得 - end
-2025-09-15 18:58:20,824 api.yfinance.api_yfinance:87 test [INFO]: 1-2 ETHのデータ取得 - start
-2025-09-15 18:58:21,119 api.yfinance.api_yfinance:89 test [INFO]: 1-2 ETHのデータ取得 - end
-2025-09-15 18:59:35,340 common.db_maria_tx:113 test [INFO]: 0 事前準備 - start
-2025-09-15 18:59:35,351 common.db_maria_tx:119 test [INFO]: 0 事前準備 - end
-2025-09-15 18:59:35,351 common.db_maria_tx:121 test [INFO]: 1-1 1件追加 ID=1 - start
-2025-09-15 18:59:35,356 common.db_maria_tx:126 test [INFO]: 1-1 1件追加 ID=1 - end
-2025-09-15 18:59:35,356 common.db_maria_tx:128 test [INFO]: 1-2 1件追加 ID=2 - start
-2025-09-15 18:59:35,371 common.db_maria_tx:133 test [INFO]: 1-2 1件追加 ID=2 - end
-2025-09-15 18:59:35,371 common.db_maria_tx:135 test [INFO]: 2 1件追加 トランザクション内でSELECT - start
-2025-09-15 18:59:35,372 common.db_maria_tx:140 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 18:59:35,376 common.db_maria_tx:143 test [INFO]: 2 1件追加 トランザクション内でSELECT - end
-2025-09-15 18:59:35,376 common.db_maria_tx:145 test [INFO]: 3 同一トランザクション内で複数SQL実行 - start
-2025-09-15 18:59:35,380 common.db_maria_tx:151 test [INFO]: 3 同一トランザクション内で複数SQL実行 - end
-2025-09-15 18:59:35,380 common.db_maria_tx:153 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - start
-2025-09-15 18:59:35,380 common.db_maria_tx:154 test [INFO]: 4-1 最初のSELECT - start
-2025-09-15 18:59:35,381 common.db_maria_tx:158 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 18:59:35,381 common.db_maria_tx:159 test [INFO]: 4-1 最初のSELECT - end
-2025-09-15 18:59:35,381 common.db_maria_tx:161 test [INFO]: 4-2 SELECT後EDLETE - start
-2025-09-15 18:59:35,381 common.db_maria_tx:163 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 18:59:35,382 common.db_maria_tx:164 test [INFO]: 4-2 SELECT後EDLETE - end
-2025-09-15 18:59:35,382 common.db_maria_tx:166 test [INFO]: 4-3 DELETE後に再度SELECT - start
-2025-09-15 18:59:35,382 common.db_maria_tx:169 test [INFO]: [(2, 'Bye')]
-2025-09-15 18:59:35,382 common.db_maria_tx:171 test [INFO]: 4-3 DELETE後に再度SELECT - end
-2025-09-15 18:59:35,382 common.db_maria_tx:172 test [INFO]: 4-3 Rollbackせずに接続を閉じるo - end
-2025-09-15 18:59:35,382 common.db_maria_tx:174 test [INFO]: 4-4 別コネクションでSELECT - start
-2025-09-15 18:59:35,383 common.db_maria_tx:179 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 18:59:35,383 common.db_maria_tx:180 test [INFO]: 4-4 別コネクションでSELECT - end
-2025-09-15 18:59:35,383 common.db_maria_tx:182 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - end
-2025-09-15 18:59:35,383 api.yfinance.api_yfinance:84 test [INFO]: 1-1 BTCのデータ取得 - start
-2025-09-15 18:59:36,184 api.yfinance.api_yfinance:85 test [INFO]: BTC Data: 
-                                   Open          High  ...  Dividends  Stock Splits
-Date                                                   ...                         
-2014-09-17 00:00:00+00:00  4.991267e+04  5.019294e+04  ...        0.0           0.0
-2014-09-18 00:00:00+00:00  4.958758e+04  4.956474e+04  ...        0.0           0.0
-2014-09-19 00:00:00+00:00  4.614241e+04  4.671102e+04  ...        0.0           0.0
-2014-09-20 00:00:00+00:00  4.302330e+04  4.614350e+04  ...        0.0           0.0
-2014-09-21 00:00:00+00:00  4.448534e+04  4.495856e+04  ...        0.0           0.0
-...                                 ...           ...  ...        ...           ...
-2025-09-11 00:00:00+00:00  1.679296e+07  1.700905e+07  ...        0.0           0.0
-2025-09-12 00:00:00+00:00  1.700688e+07  1.723451e+07  ...        0.0           0.0
-2025-09-13 00:00:00+00:00  1.714877e+07  1.717758e+07  ...        0.0           0.0
-2025-09-14 00:00:00+00:00  1.712912e+07  1.717801e+07  ...        0.0           0.0
-2025-09-15 00:00:00+00:00  1.703880e+07  1.720037e+07  ...        0.0           0.0
-
-[4017 rows x 7 columns]
-2025-09-15 18:59:36,184 api.yfinance.api_yfinance:86 test [INFO]: 1-1 BTCのデータ取得 - end
-2025-09-15 18:59:36,184 api.yfinance.api_yfinance:87 test [INFO]: 1-2 ETHのデータ取得 - start
-2025-09-15 18:59:36,482 api.yfinance.api_yfinance:88 test [INFO]: BTC Data: 
-                                    Open  ...  Stock Splits
-Date                                      ...              
-2017-11-11 00:00:00+00:00   33898.468750  ...           0.0
-2017-11-12 00:00:00+00:00   35726.757812  ...           0.0
-2017-11-13 00:00:00+00:00   34902.601562  ...           0.0
-2017-11-14 00:00:00+00:00   35981.109375  ...           0.0
-2017-11-15 00:00:00+00:00   38325.117188  ...           0.0
-...                                  ...  ...           ...
-2025-09-11 00:00:00+00:00  640882.937500  ...           0.0
-2025-09-12 00:00:00+00:00  656889.375000  ...           0.0
-2025-09-13 00:00:00+00:00  696432.750000  ...           0.0
-2025-09-14 00:00:00+00:00  689620.125000  ...           0.0
-2025-09-15 00:00:00+00:00  680537.125000  ...           0.0
-
-[2866 rows x 7 columns]
-2025-09-15 18:59:36,482 api.yfinance.api_yfinance:89 test [INFO]: 1-2 ETHのデータ取得 - end
-2025-09-15 19:04:31,489 common.db_maria_tx:113 test [INFO]: 0 事前準備 - start
-2025-09-15 19:04:31,502 common.db_maria_tx:119 test [INFO]: 0 事前準備 - end
-2025-09-15 19:04:31,502 common.db_maria_tx:121 test [INFO]: 1-1 1件追加 ID=1 - start
-2025-09-15 19:04:31,510 common.db_maria_tx:126 test [INFO]: 1-1 1件追加 ID=1 - end
-2025-09-15 19:04:31,510 common.db_maria_tx:128 test [INFO]: 1-2 1件追加 ID=2 - start
-2025-09-15 19:04:31,517 common.db_maria_tx:133 test [INFO]: 1-2 1件追加 ID=2 - end
-2025-09-15 19:04:31,517 common.db_maria_tx:135 test [INFO]: 2 1件追加 トランザクション内でSELECT - start
-2025-09-15 19:04:31,518 common.db_maria_tx:140 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (3, 'Morning')]
-2025-09-15 19:04:31,527 common.db_maria_tx:143 test [INFO]: 2 1件追加 トランザクション内でSELECT - end
-2025-09-15 19:04:31,528 common.db_maria_tx:145 test [INFO]: 3 同一トランザクション内で複数SQL実行 - start
-2025-09-15 19:04:31,532 common.db_maria_tx:151 test [INFO]: 3 同一トランザクション内で複数SQL実行 - end
-2025-09-15 19:04:31,532 common.db_maria_tx:153 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - start
-2025-09-15 19:04:31,532 common.db_maria_tx:154 test [INFO]: 4-1 最初のSELECT - start
-2025-09-15 19:04:31,533 common.db_maria_tx:158 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 19:04:31,533 common.db_maria_tx:159 test [INFO]: 4-1 最初のSELECT - end
-2025-09-15 19:04:31,533 common.db_maria_tx:161 test [INFO]: 4-2 SELECT後EDLETE - start
-2025-09-15 19:04:31,533 common.db_maria_tx:163 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 19:04:31,533 common.db_maria_tx:164 test [INFO]: 4-2 SELECT後EDLETE - end
-2025-09-15 19:04:31,533 common.db_maria_tx:166 test [INFO]: 4-3 DELETE後に再度SELECT - start
-2025-09-15 19:04:31,534 common.db_maria_tx:169 test [INFO]: [(2, 'Bye')]
-2025-09-15 19:04:31,534 common.db_maria_tx:171 test [INFO]: 4-3 DELETE後に再度SELECT - end
-2025-09-15 19:04:31,534 common.db_maria_tx:172 test [INFO]: 4-3 Rollbackせずに接続を閉じるo - end
-2025-09-15 19:04:31,534 common.db_maria_tx:174 test [INFO]: 4-4 別コネクションでSELECT - start
-2025-09-15 19:04:31,535 common.db_maria_tx:179 test [INFO]: [(1, 'Hello'), (2, 'Bye'), (4, 'Afternoon'), (5, 'Evening')]
-2025-09-15 19:04:31,535 common.db_maria_tx:180 test [INFO]: 4-4 別コネクションでSELECT - end
-2025-09-15 19:04:31,535 common.db_maria_tx:182 test [INFO]: 4 同一トランザクション内でSELECT→DELETE→SELECT - end
-2025-09-15 19:04:31,535 api.yfinance.api_yfinance:84 test [INFO]: 1-1 BTCのデータ取得 - start
-2025-09-15 19:04:32,059 api.yfinance.api_yfinance:86 test [INFO]: BTC Data: 4017件
-2025-09-15 19:04:32,059 api.yfinance.api_yfinance:87 test [INFO]: 1-1 BTCのデータ取得 - end
-2025-09-15 19:04:32,059 api.yfinance.api_yfinance:88 test [INFO]: 1-2 ETHのデータ取得 - start
-2025-09-15 19:04:32,264 api.yfinance.api_yfinance:90 test [INFO]: BTC Data: 2866件
-2025-09-15 19:04:32,264 api.yfinance.api_yfinance:91 test [INFO]: 1-2 ETHのデータ取得 - end
+2025-09-20 16:15:22,679 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 16:15:39,734 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 16:16:05,272 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 16:25:13,083 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 16:25:13,086 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-20 16:25:13,595 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/exchange/orders/rate?pair=eth_jpy&order_type=sell HTTP/1.1" 400 None
+2025-09-20 16:25:33,434 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 16:25:33,438 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-20 16:25:33,878 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/exchange/orders/rate?order_type=sell&pair=eth_jpy HTTP/1.1" 400 None
+2025-09-20 16:37:28,060 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 16:37:28,062 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-20 16:37:28,624 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/exchange/orders/rate?order_type=sell&pair=eth_jpy HTTP/1.1" 400 None
+2025-09-20 16:37:58,980 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 16:37:58,981 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-20 16:37:59,387 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/exchange/orders/rate HTTP/1.1" 400 None
+2025-09-20 16:38:29,984 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 16:38:29,989 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-20 16:38:30,483 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/exchange/orders/rate HTTP/1.1" 400 None
+2025-09-20 16:38:33,437 charset_normalizer:462 from_bytes [DEBUG]: Encoding detection: ascii is most likely the one.
+2025-09-20 16:43:14,660 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 16:43:14,661 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-20 16:43:15,159 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/exchange/orders/rate?order_type=sell&pair=eth_jpy HTTP/1.1" 400 None
+2025-09-20 16:44:08,722 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 20:02:20,358 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 20:02:20,360 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-20 20:02:20,924 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/exchange/orders/rate?order_type=sell&pair=eth_jpy HTTP/1.1" 400 None
+2025-09-20 20:03:56,549 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 20:03:56,550 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-20 20:03:57,065 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?order_type=sell&pair=BTC-JPY HTTP/1.1" 404 None
+2025-09-20 20:04:42,894 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 20:04:42,896 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-20 20:04:43,370 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=BTC-JPY HTTP/1.1" 404 None
+2025-09-20 20:05:36,635 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 20:06:15,404 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-20 20:06:15,789 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=BTC-JPY HTTP/1.1" 404 None
+2025-09-20 20:06:55,727 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 20:06:55,732 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-20 20:06:56,162 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=BTC-JPY HTTP/1.1" 404 None
+2025-09-20 20:06:58,434 charset_normalizer:462 from_bytes [DEBUG]: Encoding detection: utf_8 is most likely the one.
+2025-09-20 20:08:12,644 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 20:08:12,646 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-20 20:08:13,014 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-20 20:08:42,549 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 20:08:42,552 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-20 20:08:42,973 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-20 20:08:44,899 charset_normalizer:462 from_bytes [DEBUG]: Encoding detection: ascii is most likely the one.
+2025-09-20 20:15:38,032 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 20:15:38,035 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-20 20:15:38,463 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-20 23:34:27,520 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 23:34:27,522 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-20 23:34:28,030 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-20 23:34:28,031 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-20 23:34:28,039 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-20 23:34:28,039 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-20 23:34:28,039 common.db_maria_tx:102 __execute [CRITICAL]: データベースエラーが発生しました: statement (7) doesn't match the number of data elements (8).
+2025-09-20 23:34:28,039 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-20 23:35:25,614 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 23:35:25,615 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-20 23:35:26,046 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-20 23:35:26,047 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-20 23:35:26,050 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-20 23:35:26,051 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-20 23:35:26,053 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 20, 23, 35, 20), 'btc_jpy', 17195076.0, 17195195.0, 17196094.0, 17232374.0, 17078449.0, 207.87870776)]
+2025-09-20 23:35:26,056 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-20 23:35:26,057 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-20 23:41:29,964 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 23:41:29,966 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-20 23:41:30,511 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-20 23:41:30,511 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-20 23:41:30,518 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-20 23:41:30,518 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-20 23:41:30,521 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 20, 23, 41, 20), 'btc_jpy', 17197223.0, 17195065.0, 17197223.0, 17223795.0, 17078449.0, 207.44142793)]
+2025-09-20 23:41:30,524 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-20 23:41:30,524 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-20 23:54:57,068 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-20 23:54:57,070 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-20 23:54:57,696 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-20 23:54:57,697 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-20 23:54:57,701 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-20 23:54:57,701 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-20 23:54:57,705 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 20, 23, 54, 50), 'btc_jpy', 17207935.0, 17207367.0, 17207925.0, 17223795.0, 17078449.0, 199.03997985)]
+2025-09-20 23:54:57,710 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-20 23:54:57,711 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 00:00:01,505 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-21 00:00:20,099 root:10 <module> [DEBUG]: The root logger is created.
+2025-09-21 00:03:53,802 root:11 <module> [DEBUG]: The root logger is created.
+2025-09-21 00:13:54,075 schedule:690 run [DEBUG]: Running job Job(interval=10, unit=minutes, do=all_tick, args=(), kwargs={})
+2025-09-21 00:13:54,078 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 00:13:54,540 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=eth_jpyY HTTP/1.1" 404 None
+2025-09-21 00:15:37,009 root:11 <module> [DEBUG]: The root logger is created.
+2025-09-21 00:15:37,010 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 00:15:37,620 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=eth_jpyY HTTP/1.1" 404 None
+2025-09-21 00:16:02,606 root:11 <module> [DEBUG]: The root logger is created.
+2025-09-21 00:16:02,608 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 00:16:03,015 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=eth_jpy HTTP/1.1" 200 None
+2025-09-21 00:16:03,016 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 00:16:03,020 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 00:16:03,020 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 00:16:03,021 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 0, 16), 'eth_jpy', 666628.0, 666873.0, 667499.0, 667909.0, 658215.0, 632.86145)]
+2025-09-21 00:16:03,029 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 00:16:03,030 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 00:16:03,031 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 00:16:03,411 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-21 00:16:03,411 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 00:16:03,412 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 00:16:03,412 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 00:16:03,413 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 0, 16), 'btc_jpy', 17213693.0, 17213747.0, 17216261.0, 17223795.0, 17078449.0, 193.48872826)]
+2025-09-21 00:16:03,417 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 00:16:03,417 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 00:16:44,118 root:11 <module> [DEBUG]: The root logger is created.
+2025-09-21 00:26:44,390 schedule:690 run [DEBUG]: Running job Job(interval=10, unit=minutes, do=all_tick, args=(), kwargs={})
+2025-09-21 00:26:44,392 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 00:26:44,905 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=eth_jpy HTTP/1.1" 200 None
+2025-09-21 00:26:44,906 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 00:26:44,910 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 00:26:44,910 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 00:26:44,911 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 0, 26, 40), 'eth_jpy', 668155.0, 668504.0, 668999.0, 668988.0, 658215.0, 603.03164)]
+2025-09-21 00:26:44,916 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 00:26:44,916 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 00:26:44,918 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 00:26:45,312 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-21 00:26:45,313 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 00:26:45,314 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 00:26:45,314 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 00:26:45,314 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 0, 26, 40), 'btc_jpy', 17228222.0, 17228222.0, 17229353.0, 17228222.0, 17078449.0, 191.68790606)]
+2025-09-21 00:26:45,318 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 00:26:45,319 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 00:36:45,632 schedule:690 run [DEBUG]: Running job Job(interval=10, unit=minutes, do=all_tick, args=(), kwargs={})
+2025-09-21 00:36:45,633 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 00:36:46,094 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=eth_jpy HTTP/1.1" 200 None
+2025-09-21 00:36:46,094 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 00:36:46,095 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 00:36:46,096 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 00:36:46,096 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 0, 36, 40), 'eth_jpy', 667500.0, 667499.0, 668038.0, 668988.0, 658215.0, 606.89509)]
+2025-09-21 00:36:46,101 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 00:36:46,101 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 00:36:46,102 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 00:36:46,530 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-21 00:36:46,531 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 00:36:46,533 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 00:36:46,534 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 00:36:46,534 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 0, 36, 40), 'btc_jpy', 17210903.0, 17209058.0, 17211157.0, 17231512.0, 17078449.0, 192.64873228)]
+2025-09-21 00:36:46,544 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 00:36:46,544 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 00:46:46,845 schedule:690 run [DEBUG]: Running job Job(interval=10, unit=minutes, do=all_tick, args=(), kwargs={})
+2025-09-21 00:46:46,846 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 00:46:47,406 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=eth_jpy HTTP/1.1" 200 None
+2025-09-21 00:46:47,407 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 00:46:47,408 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 00:46:47,408 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 00:46:47,408 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 0, 46, 41), 'eth_jpy', 667026.0, 667026.0, 667786.0, 668988.0, 658215.0, 607.64234)]
+2025-09-21 00:46:47,414 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 00:46:47,414 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 00:46:47,416 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 00:46:47,821 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-21 00:46:47,821 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 00:46:47,822 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 00:46:47,822 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 00:46:47,822 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 0, 46, 41), 'btc_jpy', 17203211.0, 17202664.0, 17205669.0, 17231512.0, 17078449.0, 189.82475513)]
+2025-09-21 00:46:47,830 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 00:46:47,830 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 01:08:05,905 schedule:690 run [DEBUG]: Running job Job(interval=10, unit=minutes, do=all_tick, args=(), kwargs={})
+2025-09-21 01:08:05,906 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 16:43:53,413 root:11 <module> [DEBUG]: The root logger is created.
+2025-09-21 16:53:53,656 schedule:690 run [DEBUG]: Running job Job(interval=10, unit=minutes, do=all_tick, args=(), kwargs={})
+2025-09-21 16:53:53,662 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 16:53:54,194 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=eth_jpy HTTP/1.1" 200 None
+2025-09-21 16:53:54,195 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 16:53:54,201 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 16:53:54,201 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 16:53:54,201 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 16, 53, 50), 'eth_jpy', 664851.0, 664594.0, 665573.0, 668992.0, 662000.0, 450.46782)]
+2025-09-21 16:53:54,209 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 16:53:54,209 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 16:53:54,212 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 16:53:54,630 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-21 16:53:54,630 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 16:53:54,631 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 16:53:54,631 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 16:53:54,632 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 16, 53, 50), 'btc_jpy', 17175815.0, 17173177.0, 17175742.0, 17231512.0, 17123524.0, 141.03829614)]
+2025-09-21 16:53:54,640 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 16:53:54,640 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 17:03:54,860 schedule:690 run [DEBUG]: Running job Job(interval=10, unit=minutes, do=all_tick, args=(), kwargs={})
+2025-09-21 17:03:54,861 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 17:03:55,272 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=eth_jpy HTTP/1.1" 200 None
+2025-09-21 17:03:55,272 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 17:03:55,274 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 17:03:55,274 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 17:03:55,274 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 17, 3, 50), 'eth_jpy', 665089.0, 664845.0, 665942.0, 668992.0, 662000.0, 452.25456)]
+2025-09-21 17:03:55,282 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 17:03:55,282 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 17:03:55,284 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 17:03:55,725 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-21 17:03:55,726 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 17:03:55,727 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 17:03:55,728 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 17:03:55,728 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 17, 3, 50), 'btc_jpy', 17174000.0, 17172819.0, 17174000.0, 17231512.0, 17123524.0, 135.92246875)]
+2025-09-21 17:03:55,734 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 17:03:55,734 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 17:13:55,948 schedule:690 run [DEBUG]: Running job Job(interval=10, unit=minutes, do=all_tick, args=(), kwargs={})
+2025-09-21 17:13:55,949 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 17:13:56,400 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=eth_jpy HTTP/1.1" 200 None
+2025-09-21 17:13:56,401 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 17:13:56,403 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 17:13:56,403 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 17:13:56,403 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 17, 13, 50), 'eth_jpy', 665253.0, 664516.0, 665274.0, 668992.0, 662000.0, 464.27353)]
+2025-09-21 17:13:56,407 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 17:13:56,407 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 17:13:56,408 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 17:13:56,786 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-21 17:13:56,786 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 17:13:56,788 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 17:13:56,788 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 17:13:56,788 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 17, 13, 50), 'btc_jpy', 17161127.0, 17160001.0, 17161037.0, 17231512.0, 17123524.0, 131.45216849)]
+2025-09-21 17:13:56,796 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 17:13:56,796 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 17:23:57,014 schedule:690 run [DEBUG]: Running job Job(interval=10, unit=minutes, do=all_tick, args=(), kwargs={})
+2025-09-21 17:23:57,015 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 17:23:57,479 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=eth_jpy HTTP/1.1" 200 None
+2025-09-21 17:23:57,479 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 17:23:57,481 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 17:23:57,481 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 17:23:57,481 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 17, 23, 50), 'eth_jpy', 664100.0, 664100.0, 664979.0, 668992.0, 662000.0, 463.98082)]
+2025-09-21 17:23:57,487 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 17:23:57,487 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 17:23:57,490 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 17:23:57,917 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-21 17:23:57,918 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 17:23:57,919 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 17:23:57,919 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 17:23:57,920 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 17, 23, 50), 'btc_jpy', 17163792.0, 17162453.0, 17164482.0, 17231512.0, 17123524.0, 130.68389431)]
+2025-09-21 17:23:57,924 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 17:23:57,925 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 17:33:58,145 schedule:690 run [DEBUG]: Running job Job(interval=10, unit=minutes, do=all_tick, args=(), kwargs={})
+2025-09-21 17:33:58,146 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 17:33:58,703 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=eth_jpy HTTP/1.1" 200 None
+2025-09-21 17:33:58,703 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 17:33:58,705 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 17:33:58,705 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 17:33:58,706 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 17, 33, 51), 'eth_jpy', 663500.0, 663500.0, 663980.0, 668992.0, 662000.0, 467.47343)]
+2025-09-21 17:33:58,711 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 17:33:58,712 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 17:33:58,715 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 17:33:59,170 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-21 17:33:59,171 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 17:33:59,172 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 17:33:59,172 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 17:33:59,172 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 17, 33, 51), 'btc_jpy', 17143952.0, 17143583.0, 17146554.0, 17231512.0, 17123524.0, 132.1442225)]
+2025-09-21 17:33:59,180 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 17:33:59,180 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 17:43:59,390 schedule:690 run [DEBUG]: Running job Job(interval=10, unit=minutes, do=all_tick, args=(), kwargs={})
+2025-09-21 17:43:59,391 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 17:43:59,907 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=eth_jpy HTTP/1.1" 200 None
+2025-09-21 17:43:59,908 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 17:43:59,910 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 17:43:59,910 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 17:43:59,910 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 17, 43, 50), 'eth_jpy', 663921.0, 663669.0, 663999.0, 668992.0, 662000.0, 463.0633)]
+2025-09-21 17:43:59,918 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 17:43:59,919 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 17:43:59,920 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 17:44:00,307 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-21 17:44:00,308 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 17:44:00,309 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 17:44:00,309 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 17:44:00,309 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 17, 43, 50), 'btc_jpy', 17156000.0, 17155012.0, 17156310.0, 17231512.0, 17123524.0, 132.43054498)]
+2025-09-21 17:44:00,315 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 17:44:00,316 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 17:54:00,522 schedule:690 run [DEBUG]: Running job Job(interval=10, unit=minutes, do=all_tick, args=(), kwargs={})
+2025-09-21 17:54:00,523 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 17:54:01,028 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=eth_jpy HTTP/1.1" 200 None
+2025-09-21 17:54:01,028 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 17:54:01,029 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 17:54:01,029 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 17:54:01,030 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 17, 54), 'eth_jpy', 664258.0, 663800.0, 664258.0, 668992.0, 662000.0, 448.84927)]
+2025-09-21 17:54:01,036 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 17:54:01,036 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 17:54:01,038 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 17:54:01,454 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-21 17:54:01,454 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 17:54:01,455 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 17:54:01,455 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 17:54:01,455 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 17, 54), 'btc_jpy', 17153468.0, 17152810.0, 17155791.0, 17231512.0, 17123524.0, 132.20420606)]
+2025-09-21 17:54:01,464 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 17:54:01,464 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 18:04:01,752 schedule:690 run [DEBUG]: Running job Job(interval=10, unit=minutes, do=all_tick, args=(), kwargs={})
+2025-09-21 18:04:01,752 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 18:04:02,160 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=eth_jpy HTTP/1.1" 200 None
+2025-09-21 18:04:02,161 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 18:04:02,162 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 18:04:02,162 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 18:04:02,163 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 18, 4), 'eth_jpy', 664580.0, 663815.0, 664541.0, 668992.0, 662000.0, 436.41462)]
+2025-09-21 18:04:02,166 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 18:04:02,167 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 18:04:02,168 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 18:04:02,547 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-21 18:04:02,547 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 18:04:02,548 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 18:04:02,548 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 18:04:02,549 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 18, 4), 'btc_jpy', 17157748.0, 17156387.0, 17158495.0, 17231512.0, 17123524.0, 131.56453859)]
+2025-09-21 18:04:02,557 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 18:04:02,557 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 18:14:02,843 schedule:690 run [DEBUG]: Running job Job(interval=10, unit=minutes, do=all_tick, args=(), kwargs={})
+2025-09-21 18:14:02,844 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 18:14:03,295 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=eth_jpy HTTP/1.1" 200 None
+2025-09-21 18:14:03,295 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 18:14:03,297 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 18:14:03,297 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 18:14:03,297 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 18, 14), 'eth_jpy', 663810.0, 664164.0, 664940.0, 668992.0, 662000.0, 433.50778)]
+2025-09-21 18:14:03,305 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 18:14:03,305 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed
+2025-09-21 18:14:03,307 urllib3.connectionpool:1049 _new_conn [DEBUG]: Starting new HTTPS connection (1): coincheck.com:443
+2025-09-21 18:14:03,728 urllib3.connectionpool:544 _make_request [DEBUG]: https://coincheck.com:443 "GET /api/ticker?pair=btc_jpy HTTP/1.1" 200 None
+2025-09-21 18:14:03,729 common.db_maria_tx:20 __init__ [DEBUG]: init finished
+2025-09-21 18:14:03,730 common.db_maria_tx:31 connect [DEBUG]: dbinfo [user: root, host: localhost, port: 3306, database: cryptocurrency]
+2025-09-21 18:14:03,730 common.db_maria_tx:33 connect [DEBUG]: connection initialized
+2025-09-21 18:14:03,730 common.db_maria_tx:100 __execute [DEBUG]: execute done [sql: insert into tick_history (tick_datetime, symbol, last, bid, ask, high, low, volume) values (?, ?, ?, ?, ?, ?, ?, ?); / params: (datetime.datetime(2025, 9, 21, 18, 14), 'btc_jpy', 17157892.0, 17156786.0, 17157857.0, 17231512.0, 17123524.0, 131.57329906)]
+2025-09-21 18:14:03,734 common.db_maria_tx:65 commit [DEBUG]: committed
+2025-09-21 18:14:03,735 common.db_maria_tx:43 close [DEBUG]: cursor and connection has closed

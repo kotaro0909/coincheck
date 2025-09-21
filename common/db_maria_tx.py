@@ -30,7 +30,7 @@ class DbMariaTx:
             )
             self._logger.debug(f'dbinfo [user: {self.__username}, host: {self.__mariadb_host}'
                               f', port: {self.__mariadb_port}, database: {self.__database}]')
-            self._logger.debug("connected")
+            self._logger.debug("connection initialized")
         except mariadb.Error as e:
             print(f"データベースエラーが発生しました: {e}")
             raise e
@@ -40,7 +40,7 @@ class DbMariaTx:
             if not self.__cursor.check_closed():
                 self.__cursor.close()
             self.__conn.close()
-            self._logger.debug(f'closed')
+            self._logger.debug(f'cursor and connection has closed')
         except mariadb.Error as e:
             self._logger.fatal(f"データベースエラーが発生しました: {e}")
             raise e
@@ -52,7 +52,7 @@ class DbMariaTx:
             # curs = self.__conn.cursor()
             # rows = curs.fetchall()
             # curs.close()
-            self._logger.debug(f'{len(rows)} rows')
+            self._logger.debug(f'got rows [{len(rows)} rows]')
             return rows
         except mariadb.Error as e:
             self._logger.fatal(f"データベースエラーが発生しました: {e}")
@@ -71,7 +71,7 @@ class DbMariaTx:
     def rollback(self) -> None:
         try:
             self.__conn.rollback()
-            self._logger.debug(f'rollback')
+            self._logger.debug(f'rollback done')
         except mariadb.Error as e:
             self._logger.fatal(f"データベースエラーが発生しました: {e}")
             self.close()
@@ -88,7 +88,6 @@ class DbMariaTx:
     def __execute(self, sql: str, params: tuple) -> None:
         try:
             self.__cursor = self.__conn.cursor()
-            self._logger.debug(f'create cursor')
         except mariadb.Error as e:
             self._logger.fatal(f"データベースエラーが発生しました: {e}")
             raise e
@@ -98,7 +97,7 @@ class DbMariaTx:
                 self.__cursor.execute(sql)
             else:
                 self.__cursor.execute(sql, params)
-            self._logger.debug(f'execute done')
+            self._logger.debug(f'execute done [sql: {sql} / params: {params}]')
         except mariadb.Error as e:
             self._logger.fatal(f"データベースエラーが発生しました: {e}")
             self.__conn.rollback()

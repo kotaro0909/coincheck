@@ -31,6 +31,8 @@ class ApiTicker:
             if r.status_code == 200 or r.reason == 'OK':
                 json_dat = json.loads(r.text)
                 self.__last = json_dat["last"]
+                self.__high = json_dat["bid"]
+                self.__high = json_dat["ask"]
                 self.__high = json_dat["high"]
                 self.__low = json_dat["low"]
                 self.__volume = json_dat["volume"]
